@@ -5,9 +5,10 @@ RPROMPT="%~"
 export EDITOR=vim
 
 # git aliases
+alias g="git"
 alias ginit="git init ."
-alias gadd="git add ."
-alias gc="git commit -m 'Initial Commit'"
+alias gadd="git add -all"
+alias gc="git commit -v -a -m" 
 
 # other aliases
 alias clean="make clean"
@@ -23,10 +24,5 @@ alias ls="ls -F"
 alias ll="ls -lah"
 
 alias cdesk="cd ~/Desktop"
-alias cdoc="cd ~/Deocuments"
-alias cdoc="cd ~/Deocuments"
-
+alias cdoc="cd ~/Documents"
 alias clr="clear"
-
-path+=('/opt/homebrew/bin/brew')
-export PATH
