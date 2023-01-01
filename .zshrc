@@ -7,7 +7,7 @@ export EDITOR=vim
 # git aliases
 alias g="git"
 alias ginit="git init ."
-alias gadd="git add -all"
+alias gadd="git add --all"
 alias gc="git commit -v -a -m" 
 
 # other aliases
@@ -25,4 +25,5 @@ alias ll="ls -lah"
 
 alias cdesk="cd ~/Desktop"
 alias cdoc="cd ~/Documents"
+alias chome="cd ~"
 alias clr="clear"
