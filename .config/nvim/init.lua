@@ -104,6 +104,7 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 
 -- Harri's Keymaps start here
 vim.keymap.set('i', 'ii', '<ESC>', { desc = 'Exit insert mode by pressing ii' })
+vim.keymap.set('i', 'jk', '<ESC>', { desc = 'Exit insert mode by pressing jk' })
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
