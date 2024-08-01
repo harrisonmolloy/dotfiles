@@ -26,11 +26,17 @@ alias gs="git status"
 # other aliases
 alias clean="make clean"
 alias run="make run"
-
+ 
+alias ls="eza"
+alias lt="eza -T -L 2"
 alias l="ls -1"
 alias ls="ls -1hF"
 alias la="ls -A"
-alias ll='la -l'
+alias ll="la -l"
+
+alias lag="eza -1l --git -a --no-time --no-permissions --no-user --no-filesize --group-directories-first"
+alias lt="eza -T -L 2 -1l --git --no-time --no-permissions --no-user --no-filesize --group-directories-first"
+alias lg="eza -1l --git --no-time --no-permissions --no-user --no-filesize --group-directories-first"
 
 alias ~="cd ~"
 alias ..="cd .."
