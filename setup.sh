@@ -1,4 +1,6 @@
-!/usr/bin/env zsh 
+!/usr/bin/env zsh
+
+## Iterm 2
 
 # Specify the preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.config/iterm2"
