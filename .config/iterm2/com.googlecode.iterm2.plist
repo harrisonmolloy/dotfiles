@@ -4,16 +4,6 @@
 <dict>
 	<key>Actions</key>
 	<array/>
-	<key>AppleAntiAliasingThreshold</key>
-	<integer>1</integer>
-	<key>ApplePressAndHoldEnabled</key>
-	<false/>
-	<key>AppleScrollAnimationEnabled</key>
-	<integer>0</integer>
-	<key>AppleSmoothFixedFontsSizeThreshold</key>
-	<integer>1</integer>
-	<key>AppleWindowTabbingMode</key>
-	<string>manual</string>
 	<key>BadgeFont</key>
 	<string>SFMono-Regular</string>
 	<key>BadgeFontIsBold</key>
