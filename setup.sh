@@ -1,5 +1,9 @@
 !/usr/bin/env zsh
 
+## Fonts
+alias fontbook="open -b com.apple.FontBook"
+fontbook .config/fonts/SF-Mono-Nerd-Font-master/*.otf
+
 ## Iterm 2
 
 # Specify the preferences directory
