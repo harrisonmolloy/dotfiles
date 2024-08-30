@@ -11,20 +11,30 @@
   "theme": "Github Dark",
   "ui_font_size": 14,
   "buffer_font_size": 14,
-  "soft_wrap": "editor_width"
-  // "vim_mode": true,
-  // // disable cursor blink
-  // "cursor_blink": false,
-  // // use relative line numbers
-  // "relative_line_numbers": true,
-  // // hide the scroll bar
-  // "scrollbar": {
-  //   "show": "never"
-  // },
-  // // allow cursor to reach edges of screen
-  // "vertical_scroll_margin": 0,
-  // "gutter": {
-  //   // disable line numbers completely:
-  //   "line_numbers": false
-  // }
+  "soft_wrap": "editor_width",
+  "outline_panel": {
+    // Whether to show the outline panel button in the status bar
+    "button": false
+  },
+  "collaboration_panel": {
+    // Whether to show the collaboration panel button in the status bar.
+    "button": false
+  },
+  "chat_panel": {
+    // Whether to show the chat panel button in the status bar.
+    "button": false
+  },
+  "notification_panel": {
+    // Whether to show the notification panel button in the status bar.
+    "button": false
+  },
+  "assistant": {
+    "version": "2",
+    // Whether the assistant is enabled.
+    "enabled": false
+  },
+
+  // vim mode
+  "vim_mode": true,
+  "relative_line_numbers": true
 }
