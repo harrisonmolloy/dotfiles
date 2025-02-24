@@ -1,6 +1,15 @@
 PATH="/opt/homebrew/bin:$PATH"
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 
+function set-title {
+    echo -ne "\e]2;$1\a"
+}
+
+# Example: Set terminal title on shell prompt
+precmd() {
+    set-title "Zsh - ${PWD##*/}"
+}
+
 export CLICOLOR=1
 
 # NEWLINE=$'\n'
