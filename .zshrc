@@ -76,3 +76,18 @@ alias lt="eza -T -L 2"
 alias lag="eza -1l --git -a --no-time --no-permissions --no-user --no-filesize --group-directories-first"
 alias lt="eza -T -L 2 -1l --git --no-time --no-permissions --no-user --no-filesize --group-directories-first"
 alias lg="eza -1l --git --no-time --no-permissions --no-user --no-filesize --group-directories-first"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
