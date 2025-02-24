@@ -31,6 +31,7 @@ alias ginit="git init ."
 alias gadd="git add --all"
 alias gc="git commit -v -a -m"
 alias gs="git status"
+alias gp="git push"
 
 # other aliases
 alias clean="make clean"
