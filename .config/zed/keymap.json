@@ -1,0 +1,7 @@
+[
+  {
+    "bindings": {
+      "ctrl-space": "command_palette::Toggle"
+    }
+  }
+]

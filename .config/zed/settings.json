@@ -8,10 +8,27 @@
 // from the command palette or from `Zed` application menu.
 {
   // "theme": "Xcode Classic Dark",
-  "theme": "Github Dark",
+  "icon_theme": "Zed (Default)",
+  "theme": "Github Light",
   "ui_font_size": 14,
   "buffer_font_size": 14,
   "soft_wrap": "editor_width",
+  // The name of a base set of key bindings to use.
+  // This setting can take six values, each named after another
+  // text editor:
+  //
+  // 1. "VSCode"
+  // 2. "Atom"
+  // 3. "JetBrains"
+  // 4. "None"
+  // 5. "SublimeText"
+  // 6. "TextMate"
+  "base_keymap": "Atom",
+  // Features that can be globally enabled or disabled
+  "features": {
+    // Which edit prediction provider to use.
+    "edit_prediction_provider": "copilot"
+  },
   "outline_panel": {
     // Whether to show the outline panel button in the status bar
     "button": false
@@ -32,9 +49,9 @@
     "version": "2",
     // Whether the assistant is enabled.
     "enabled": false
-  },
+  }
 
   // vim mode
-  "vim_mode": true,
-  "relative_line_numbers": true
+  // "vim_mode": true,
+  // "relative_line_numbers": true
 }
