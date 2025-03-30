@@ -1,7 +1,9 @@
 [
   {
     "bindings": {
-      "ctrl-space": "command_palette::Toggle"
+      "ctrl-space": "command_palette::Toggle",
+      "ctrl-t": "workspace::ToggleLeftDock",
+      "ctrl-f": "file_finder::Toggle"
     }
   }
 ]
