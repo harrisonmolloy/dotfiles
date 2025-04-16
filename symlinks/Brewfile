@@ -13,6 +13,12 @@ brew "pure"
 ## Eza, ls Replacement
 brew "eza"
 
+## Bat, cat Replacement
+brew "bat"
+
+## tldr, man pages like helper
+brew "tlrc"
+
 ## Docker Desktop
 cask "docker"
 

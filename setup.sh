@@ -30,7 +30,6 @@ defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true" && killall Fi
 
 scriptdir=${0:a:h}
 symlinkdir="${scriptdir}/symlinks"
-Brewfile="${scriptdir}/src/Brewfile"
 fontdir="${scriptdir}/src/fonts/SF-Mono-Nerd-Font-master"
 itermcustomfolder="${scriptdir}/src/iterm2"
 
@@ -48,7 +47,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install homebrew packages
-brew bundle install --file "${Brewfile}"
+brew bundle install
 
 ### Setup Fonts
 open -b com.apple.FontBook "${fontdir}"/*.otf
