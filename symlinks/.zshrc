@@ -75,3 +75,6 @@ alias lt="eza -T -L 2"
 alias lag="eza -1l --git -a --no-time --no-permissions --no-user --no-filesize --group-directories-first"
 alias lt="eza -T -L 2 -1l --git --no-time --no-permissions --no-user --no-filesize --group-directories-first"
 alias lg="eza -1l --git --no-time --no-permissions --no-user --no-filesize --group-directories-first"
+
+## bat setup
+alias cat="bat"
