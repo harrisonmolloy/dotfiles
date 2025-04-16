@@ -1,13 +1,13 @@
 #!/usr/bin/env zsh
 
 scriptdir=${0:a:h}
-linkdir="${scriptdir}/links"
+symlinkdir="${scriptdir}/symlinks"
 Brewfile="${scriptdir}/src/Brewfile"
 fontdir="${scriptdir}/src/fonts/SF-Mono-Nerd-Font-master"
 itermcustomfolder="${scriptdir}/src/iterm2"
 
 ### Link dotfiles to home
-cp -rsf ${linkdir}/. ~
+cp -rsf ${symlinkdir}/. ~
 
 ### got to home folder and source .zshrc to finish install
 cd ~
