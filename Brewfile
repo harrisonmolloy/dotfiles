@@ -1,0 +1,26 @@
+## set arguments for all 'brew install --cask' commands
+cask_args appdir: "~/Applications", require_sha: true
+
+## Neovim
+brew "neovim"
+
+## Fuzzy Finder
+brew "fzf"
+
+## Pure Prompt
+brew "pure"
+
+## Eza, ls Replacement
+brew "eza"
+
+## Docker Desktop
+cask "docker"
+
+## Terminal
+cask "iterm2"
+
+## Code Editor
+cask "zed"
+
+## Github Desktop
+cask "github"
