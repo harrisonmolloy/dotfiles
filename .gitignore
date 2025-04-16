@@ -1,4 +1,0 @@
-# ignore everything
-*
-
-# to track a file use git add -f <file> to force override

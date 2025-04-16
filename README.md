@@ -1,17 +1,7 @@
 ## Installation
 
-Clone this repo into ~ (your user home folder eq /Users/harri/)
-you may need to download, then manually drag the contents of dotfiles into your home
-so this repos root is ~ locally. not ~/dotfiles. then run
+Clone this repo onto your machine. it can go wherever you like to keep your project files. cd into the repo then run the setup script to link the dotfiles into your home folder and set things up.
 
 ```zsh
-source setup.sh
-```
-
-## updating
-
-all files are .gitignored by default to begin tracking a new file run
-
-```zsh
-git add -f <file>
+./setup.sh
 ```
